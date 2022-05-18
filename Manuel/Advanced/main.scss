@@ -1,0 +1,90 @@
+$nav-color: rgb(24, 90, 98);
+$nav-color-hover: rgb(34, 125, 135);
+$main-color: linear-gradient(180deg, rgb(24, 90, 98), white);
+
+@media screen and (max-width: 1000px) {
+    $nav-color: green;
+}
+
+@media screen and (min-width: 1001px) {
+    $nav-color: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background-color: $nav-color;
+
+    .nav-img {
+        height: 100%;
+        padding: 10%;
+    }
+
+    .nav-list {
+        list-style-type: none;
+        display: flex;
+        margin-left: 1vw;
+        overflow: hidden;
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+
+            .nav-link {
+                font-size: 1.5em;
+                text-decoration: none;
+                display: block;
+                color: white;
+                padding: 5vh;
+
+                &:hover {
+                    background-color: $nav-color-hover;
+                }
+            }
+        }
+    }
+}
+
+.hero {
+    height: 60vh;
+    width: 100%;
+    padding-left: 5em;
+    background-image: url("pics/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .hero-h1 {
+        font-size: 4em;
+        color: white;
+    }
+
+    .hero-h3 {
+        font-size: 2em;
+        color: white;
+    }
+}
+
+.main {
+    background-image: $main-color;
+    padding: 5vw;
+    
+    .main-h1 {
+        font-size: 2em;
+    }
+
+    .main-p {
+        max-width: 50%;
+        margin-top: 2vh;
+        font-size: 1em;
+    }
+}

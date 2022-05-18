@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  height: 10vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #185a62;
+}
+
+.navbar .nav-img {
+  height: 100%;
+  padding: 10%;
+}
+
+.navbar .nav-list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 1vw;
+  overflow: hidden;
+}
+
+.navbar .nav-list .nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .nav-list .nav-item .nav-link {
+  font-size: 1.5em;
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 5vh;
+}
+
+.navbar .nav-list .nav-item .nav-link:hover {
+  background-color: #227d87;
+}
+
+.hero {
+  height: 60vh;
+  width: 100%;
+  padding-left: 5em;
+  background-image: url("pics/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .hero-h1 {
+  font-size: 4em;
+  color: white;
+}
+
+.hero .hero-h3 {
+  font-size: 2em;
+  color: white;
+}
+
+.main {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#185a62), to(white));
+  background-image: linear-gradient(180deg, #185a62, white);
+  padding: 5vw;
+}
+
+.main .main-h1 {
+  font-size: 2em;
+}
+
+.main .main-p {
+  max-width: 50%;
+  margin-top: 2vh;
+  font-size: 1em;
+}
+/*# sourceMappingURL=main.css.map */
