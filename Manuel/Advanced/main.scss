@@ -2,14 +2,6 @@ $nav-color: rgb(24, 90, 98);
 $nav-color-hover: rgb(34, 125, 135);
 $main-color: linear-gradient(180deg, rgb(24, 90, 98), white);
 
-@media screen and (max-width: 1000px) {
-    $nav-color: green;
-}
-
-@media screen and (min-width: 1001px) {
-    $nav-color: red;
-}
-
 * {
     margin: 0;
     padding: 0;
